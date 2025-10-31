@@ -1,0 +1,32 @@
+body {
+    background-color: #b9ffd5;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #e6a57e;
+}
+
+div{
+    background-color:  #dcd8a2;
+}
+
+p{
+    color: rgb(76, 49, 231);
+
+}
+.tekst-formatowany{
+    background-color: #5ad6bd;
+
+}
+hr{
+    color: pink;
+}
+
+.klasa{
+    background-color: #ff8585;
+    color: darkred;
+    text-align: center;
+}
