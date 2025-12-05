@@ -1,0 +1,28 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    line-height: 200%;
+    font-size: 1.5em;
+}
+h1{
+    text-align: center;
+
+}
+dt::first-letter{
+    font-size: 30px;
+    color: darkorange;
+    font-style: italic;
+}
+dd::first-line{
+    font-size: 12px;
+
+}
+#link:link{
+    text-decoration: none;
+
+}
+#visited:visited{
+    color: lightgreen;
+    text-decoration: none;
+}
