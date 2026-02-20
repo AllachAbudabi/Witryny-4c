@@ -1,0 +1,36 @@
+div.rodzic{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 50%;
+
+}
+div.dziecko{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+.a{
+    width:200px;
+    height:200px;
+    background-color: greenyellow;
+}
+.b{
+    width:100px;
+    height:100px;
+    background-color: red;
+}
+.c{
+    width:50px;
+    height:50px;
+    background-color: pink;
+}
+.d{
+    width:300px;
+    height:300px;
+    background-color: navy;
+}

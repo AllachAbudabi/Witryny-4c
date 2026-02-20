@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+div.produkt{
+    margin: 100px;
+    width: 200px;
+    height: 300px;
+    background:url(image32.jpg) ;
+    background-color: gray;
+    position: relative;
+}
+div.etykieta{
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    width: 100px;
+    height: 50px;
+
+    background-color: green;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+
+
+}
