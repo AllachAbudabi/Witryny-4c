@@ -1,0 +1,55 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+
+.bloki {
+    counter-reset: blok;
+    margin-top: 20px;
+}
+
+.blok {
+    counter-increment: blok;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.blok::before {
+    content: "👍 " counter(blok) " blok lekcji: ";
+    font-weight: bold;
+    color: mediumseagreen;
+    letter-spacing: 3px;
+}
+
+
+.kroki {
+    margin-top: 30px;
+}
+
+.krok {
+    margin: 15px 0;
+}
+
+.krok strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+ul {
+    margin-top: 15px;
+    font-size: 18px;
+}

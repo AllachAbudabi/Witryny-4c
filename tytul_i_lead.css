@@ -1,0 +1,14 @@
+h1 + p {
+  font-style: italic;
+  color: blue;
+}
+ul.polska > li {
+  border: 1px solid black;
+  
+}
+img ~ p {
+  color: gray;
+}
+img {
+  width: 300px;
+}
